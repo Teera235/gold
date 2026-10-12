@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="r1_desk_targeting.py" xmlns="http://www.topografix.com/GPX/1/1">
+<wpt lat="18.265149" lon="101.643943"><name>DT-1-target</name><desc>desk-only target, score 0.69; hole az 50 dip -49, 80 m</desc></wpt>
+<wpt lat="18.265006" lon="101.643759"><ele>363.7</ele><name>DT-1-collar</name><desc>desk-only target, score 0.69; hole az 50 dip -49, 80 m</desc></wpt>
+<wpt lat="18.265460" lon="101.643470"><name>DT-2-target</name><desc>desk-only target, score 0.65; hole az 10 dip -52, 100 m</desc></wpt>
+<wpt lat="18.26515" lon="101.643408"><ele>362.5</ele><name>DT-2-collar</name><desc>desk-only target, score 0.65; hole az 10 dip -52, 100 m</desc></wpt>
+<wpt lat="18.265835" lon="101.644186"><name>DT-3-target</name><desc>desk-only target, score 0.56; hole az 35 dip -54, 100 m</desc></wpt>
+<wpt lat="18.265616" lon="101.64402"><ele>394.9</ele><name>DT-3-collar</name><desc>desk-only target, score 0.56; hole az 35 dip -54, 100 m</desc></wpt>
+<wpt lat="18.265086" lon="101.643068"><name>DT-4-target</name><desc>desk-only target, score 0.56; hole az 225 dip -52, 110 m</desc></wpt>
+<wpt lat="18.265337" lon="101.643339"><ele>362.5</ele><name>DT-4-collar</name><desc>desk-only target, score 0.56; hole az 225 dip -52, 110 m</desc></wpt>
+</gpx>

@@ -1,0 +1,1 @@
+sample_id,observation_id,date_utc,longitude,latitude,location_accuracy_m,surface_cover_observed,rock_soil_description,photo_id,sample_type,laboratory,assay_method,au_value,au_unit,detection_limit,qa_qc_type,chain_of_custody_id,notes

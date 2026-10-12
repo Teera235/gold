@@ -1,0 +1,10 @@
+อ่านรายงานภาษาไทยก่อนใช้งาน
+landcover_2021: WorldCover ปี 2021 รหัสชั้นตาม landcover_2021.csv
+eligible_surface: 1=ผ่านเกณฑ์ผิวเปิดและสิ่งปกคลุม, 0=ไม่ผ่าน
+historical_cover_disagreement: 1=เปิดโล่งซ้ำแต่ไม่ผ่านสิ่งปกคลุมอ้างอิง
+clear_observations / exposed_observations / scored_observations: จำนวนวัน
+relative_evidence: อันดับสัมพัทธ์ 0–1 ไม่ใช่โอกาสพบทอง
+repeat_fraction: สัดส่วนวันผิดปกติในวันที่คิดคะแนนได้
+candidate_pixels: ผลเกณฑ์พิกเซลก่อนกรองขนาดกลุ่ม ตรวจ observations สำหรับผลโซนสุดท้าย
+NaN: ไม่มีข้อมูลหรืออยู่นอกขอบเขต
+EPSG:32647 เป็นสมมติฐานที่ต้องตรวจเทียบต้นทาง

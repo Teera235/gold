@@ -1,0 +1,3 @@
+date,r1_emit_px,ndvi_median,ndvi_min,ndvi_max,px_ndvi_le_0.35
+2025-01-22,16,0.428,0.187,0.818,5
+2026-01-25,15,0.356,0.161,0.677,7

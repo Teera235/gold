@@ -1,0 +1,16 @@
+# secrets - NASA Earthdata token lives here, never commit
+.env
+*.env
+
+# raw satellite downloads (5+ GB) - re-download with the scripts, see README
+data/
+
+# duplicate of the extracted Site 02 folder
+drive-download-*.zip
+
+# OS / Python clutter
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.part

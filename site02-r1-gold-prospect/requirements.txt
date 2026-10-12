@@ -1,0 +1,8 @@
+# Python 3.12.9 (conda env "geo" was used for all analysis)
+numpy==2.4.3
+pandas==2.3.3
+scipy==1.17.1
+matplotlib==3.10.8
+h5py==3.13.0
+rasterio==1.4.3
+pyproj==3.7.2

@@ -1,0 +1,84 @@
+{
+  "product": "Mueang Feuang surface anomaly screening",
+  "generated_utc": "2026-10-09T20:19:03.485167+00:00",
+  "purpose": "Relative ranking of exposed-surface Sentinel-2 spectral anomalies",
+  "limitation": "Not a gold detection or mineral identification product",
+  "aoi_area_km2": 38.934,
+  "analysis_crs": "EPSG:32648",
+  "analysis_grid_m": 20,
+  "sentinel_items": [
+    {
+      "item_id": "S2B_MSIL2A_20230131T033959_R061_T47QRA_20240808T171459",
+      "datetime": "2023-01-31 03:39:59.024000+00:00",
+      "cloud_cover_pct": 0.000723,
+      "tile": "47QRA",
+      "processing_baseline": "05.10"
+    },
+    {
+      "item_id": "S2B_MSIL2A_20240205T033939_R061_T47QRA_20240205T080943",
+      "datetime": "2024-02-05 03:39:39.024000+00:00",
+      "cloud_cover_pct": 0.000952,
+      "tile": "47QRA",
+      "processing_baseline": "05.10"
+    },
+    {
+      "item_id": "S2A_MSIL2A_20241226T034151_R061_T47QRA_20241226T064949",
+      "datetime": "2024-12-26 03:41:51.024000+00:00",
+      "cloud_cover_pct": 0.000322,
+      "tile": "47QRA",
+      "processing_baseline": "05.11"
+    },
+    {
+      "item_id": "S2A_MSIL2A_20250115T034111_R061_T47QRA_20250115T065649",
+      "datetime": "2025-01-15 03:41:11.024000+00:00",
+      "cloud_cover_pct": 0.00076,
+      "tile": "47QRA",
+      "processing_baseline": "05.11"
+    },
+    {
+      "item_id": "S2C_MSIL2A_20250214T033901_R061_T47QRA_20250214T090512",
+      "datetime": "2025-02-14 03:39:01.025000+00:00",
+      "cloud_cover_pct": 0.001214,
+      "tile": "47QRA",
+      "processing_baseline": "05.11"
+    },
+    {
+      "item_id": "S2C_MSIL2A_20251201T034131_R061_T47QRA_20251201T063318",
+      "datetime": "2025-12-01 03:41:31.025000+00:00",
+      "cloud_cover_pct": 0.001148,
+      "tile": "47QRA",
+      "processing_baseline": "05.11"
+    }
+  ],
+  "surface_rule": {
+    "scl_classes": [
+      4,
+      5
+    ],
+    "ndvi_lt": 0.35,
+    "ndwi_lt": 0,
+    "min_clear_observations": 2
+  },
+  "proxy_formulas": {
+    "ferric": "B04/B02",
+    "hydroxyl": "B11/B12",
+    "brightness": "mean(B02,B03,B04,B08,B11,B12)"
+  },
+  "weights": {
+    "ferric": 0.45,
+    "hydroxyl": 0.4,
+    "brightness": 0.15
+  },
+  "normalization": {
+    "method": "AOI valid-surface percentile",
+    "lower": 0.02,
+    "upper": 0.98,
+    "priority_quantile": 0.95
+  },
+  "minimum_target_area_ha": 0.32,
+  "terrain_dem": "Copernicus DEM GLO-30, analysed at native 30 m grid",
+  "software": {
+    "python": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  }
+}

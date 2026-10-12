@@ -1,0 +1,10 @@
+ndvi_max,ratio_percentile,eligible_ha,raw_anomaly_ha,polygon_count,area_ha,scored_dates,evaluation_status,baseline_iou
+0.2,0.85,1.84,0.0,0,0.0,5,evaluated,
+0.2,0.9,1.84,0.0,0,0.0,5,evaluated,
+0.2,0.95,1.84,0.0,0,0.0,5,evaluated,
+0.3,0.85,2.68,0.04,0,0.0,5,evaluated,
+0.3,0.9,2.68,0.0,0,0.0,5,evaluated,
+0.3,0.95,2.68,0.0,0,0.0,5,evaluated,
+0.4,0.85,4.44,0.04,0,0.0,8,evaluated,
+0.4,0.9,4.44,0.0,0,0.0,8,evaluated,
+0.4,0.95,4.44,0.0,0,0.0,8,evaluated,

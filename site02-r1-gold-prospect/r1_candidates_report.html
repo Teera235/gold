@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R1 Region Candidate Drill-Targets Report | Site 02</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #090d16;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --card-hover: #1e293b;
+      --accent-gold: #f59e0b;
+      --accent-gold-glow: rgba(245, 158, 11, 0.25);
+      --accent-cyan: #06b6d4;
+      --accent-blue: #3b82f6;
+      --accent-red: #ef4444;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-subtle: #64748b;
+      --border-radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 2.5rem 1.5rem;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    /* HEADER */
+    header {
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.9) 100%);
+      border: 1px solid var(--card-border);
+      border-radius: var(--border-radius);
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 450px;
+      height: 450px;
+      background: radial-gradient(circle, var(--accent-gold-glow) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .badge-project {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      color: #fbbf24;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      line-height: 1.25;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.75rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 900px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .meta-label {
+      font-size: 0.8rem;
+      color: var(--text-subtle);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+
+    .meta-val {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* SECTION CARDS */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--border-radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #f8fafc;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-title .icon {
+      color: var(--accent-gold);
+    }
+
+    /* VISUALIZATION IMAGES */
+    .visual-wrapper {
+      background: #000000;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      overflow: hidden;
+      margin: 1.5rem 0;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .visual-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .visual-caption {
+      background: #0f172a;
+      padding: 0.85rem 1.25rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-top: 1px solid #1e293b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* TABLE */
+    .table-responsive {
+      overflow-x: auto;
+      margin: 1.5rem 0;
+      border-radius: 10px;
+      border: 1px solid var(--card-border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.95rem;
+    }
+
+    th {
+      background: #1e293b;
+      color: #cbd5e1;
+      font-weight: 600;
+      padding: 1rem 1.15rem;
+      border-bottom: 2px solid #334155;
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 1rem 1.15rem;
+      border-bottom: 1px solid #1e293b;
+      color: #e2e8f0;
+    }
+
+    tr:hover td {
+      background: rgba(30, 41, 59, 0.5);
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.88rem;
+    }
+
+    .badge-rank1 {
+      background: rgba(239, 68, 68, 0.18);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+
+    .badge-rank2 {
+      background: rgba(249, 115, 22, 0.18);
+      color: #fdba74;
+      border: 1px solid rgba(249, 115, 22, 0.4);
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+
+    .badge-rank3 {
+      background: rgba(59, 130, 246, 0.18);
+      color: #93c5fd;
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+
+    /* GRID CARDS FOR TOP TARGETS */
+    .targets-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .target-card {
+      background: linear-gradient(145deg, #131c2e 0%, #0d131f 100%);
+      border: 1px solid #233149;
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+
+    .target-card:hover {
+      border-color: var(--accent-gold);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .target-card.primary {
+      border-color: rgba(239, 68, 68, 0.6);
+      box-shadow: 0 0 20px rgba(239, 68, 68, 0.15);
+    }
+
+    .target-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .target-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .param-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin: 1rem 0;
+      background: rgba(0, 0, 0, 0.25);
+      padding: 0.85rem;
+      border-radius: 8px;
+    }
+
+    .param-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .param-k {
+      font-size: 0.75rem;
+      color: var(--text-subtle);
+    }
+
+    .param-v {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #f8fafc;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* DOWNLOAD BUTTONS */
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #1e293b;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border: 1px solid #334155;
+      transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+      background: var(--accent-gold);
+      color: #000000;
+      border-color: var(--accent-gold);
+      transform: translateY(-2px);
+    }
+
+    .btn.primary {
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+      color: #000000;
+      border: none;
+    }
+
+    .btn.primary:hover {
+      box-shadow: 0 0 20px rgba(245, 158, 11, 0.4);
+    }
+
+    /* CALLOUT BOX */
+    .callout {
+      background: rgba(6, 182, 212, 0.08);
+      border-left: 4px solid var(--accent-cyan);
+      padding: 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+      color: #cbd5e1;
+    }
+
+    .callout strong {
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2.5rem 0;
+      color: var(--text-subtle);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--card-border);
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <header>
+    <div class="badge-project">Exploration Target Report | Site 02 (Laos)</div>
+    <h1>การวิเคราะห์และแผนที่ 10 จุดแคนดิเดตเจาะสำรวจในแปลง R1</h1>
+    <p class="subtitle">การบูรณาการข้อมูลภาพถ่ายดาวเทียมความละเอียดสเปกตรัมสูง NASA EMIT Hyperspectral (285 Bands) ร่วมกับฐานข้อมูลพื้นที่และโมเดลภูมิประเทศ Copernicus GLO-30 DEM</p>
+    
+    <div class="meta-grid">
+      <div class="meta-item">
+        <span class="meta-label">พื้นที่เป้าหมาย (Target Patch)</span>
+        <span class="meta-val">R1 (R01 Review Area)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">ขนาดพื้นที่ (Area Size)</span>
+        <span class="meta-val">3.92 ha (39,200 m²)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">พิกัดศูนย์กลาง (UTM 47N)</span>
+        <span class="meta-val">779,540 E / 2,021,620 N</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">พิกัด Lat / Lon (WGS84)</span>
+        <span class="meta-val">18.265841°N, 101.643824°E</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION 1: MAP VISUALIZATION -->
+  <section class="card">
+    <div class="section-title">
+      <span class="icon">🗺️</span> 1. แผนที่แสดงตำแหน่ง 10 แคนดิเดตเจาะสำรวจภายในแปลง R1 (3.92 ha)
+    </div>
+    <p style="color: var(--text-muted);">
+      ภาพด้านล่างแสดงขอบเขตจริงของแปลง R1 (กรอบสีเหลือง/ฟ้า ขนาด 98 พิกเซล 20x20m) ซ้อนทับบนแบบจำลองความสูง (Hillshade & Elevation Contours) พร้อมทั้งระบุตำแหน่ง 10 แคนดิเดต (C01 – C10), เวกเตอร์โครงสร้างรอยแตกแร่น้ำร้อน (Inferred Structural Lineament NE-SW) และทิศทางหลุมเจาะที่เสนอ (DH-R1-01 & DH-R1-02):
+    </p>
+
+    <div class="visual-wrapper">
+      <img src="visuals/r1_candidates_map.png" alt="R1 Candidates Map & Topography">
+      <div class="visual-caption">
+        <span><strong>รูปที่ 1:</strong> แผนที่ภูมิประเทศ ความลาดชัน และตำแหน่ง 10 จุดเจาะสำรวจ (UTM 47N) ภายในแปลง R1</span>
+        <span class="mono">Resolution: 200 DPI | Elevation: 340-420m</span>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>ข้อสังเกตเชิงภูมิสัณฐาน (Geomorphology):</strong> แปลง R1 วางตัวอยู่บนสันเนินเขา (Spur) ทอดตัวในแนวทิศตะวันออกเฉียงเหนือ-ตะวันตกเฉียงใต้ โดยมีระดับความสูงไต่ระดับจาก 353.7 ม. (ร่องน้ำทางทิศใต้) ขึ้นสู่ยอดเนิน 412.0 ม. ทางทิศตะวันออกเฉียงเหนือ ทุกจุด C01–C10 ตั้งอยู่บนความลาดชันเฉลี่ย 16.5° ซึ่งรถแท่นเจาะ (Tracked Rig) หรือเครื่องเจาะชนิดพกพา (Man-portable Rig) สามารถเข้าถึงหน้างานได้อย่างปลอดภัย
+    </div>
+  </section>
+
+  <!-- SECTION 2: EMIT MINERAL SIGNATURES -->
+  <section class="card">
+    <div class="section-title">
+      <span class="icon">🔬</span> 2. ผลการตรวจจับแร่ธาตุด้วย NASA EMIT Hyperspectral (285 Bands)
+    </div>
+    <p style="color: var(--text-muted);">
+      จากการสแกนเซนเซอร์ NASA EMIT (ภาพฟ้าเปิด 2025-01-22 เมฆ 2%) พิกัดแปลง R1 ตรวจพบหลักฐานทางธรณีวิทยาที่สำคัญอย่างยิ่ง ซึ่งชี้ชัดว่าเป็น <strong>ระบบสายแร่น้ำร้อนใต้พิภพ (Hydrothermal Alteration System)</strong> ไม่ใช่เพียงหญ้าแห้งหรือดินเปล่าทั่วไป:
+    </p>
+
+    <div class="visual-wrapper">
+      <img src="visuals/r1_mineral_chart.png" alt="EMIT Mineral Signatures Comparison">
+      <div class="visual-caption">
+        <span><strong>รูปที่ 2:</strong> การเปรียบเทียบความเข้มข้นแร่ธาตุ (Absorption Band Depth) ระหว่าง 10 แคนดิเดตในแปลง R1</span>
+        <span class="mono">Sensors: EMIT L2B Mineral Product</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+      <div style="background: rgba(234, 179, 8, 0.08); border: 1px solid rgba(234, 179, 8, 0.25); border-radius: 10px; padding: 1.25rem;">
+        <h4 style="color: #facc15; margin-bottom: 0.5rem;">🛡️ หมวกสนิมเหล็ก (Gossan Cap / Fe³⁺)</h4>
+        <p style="font-size: 0.9rem; color: #cbd5e1;">พบ <strong>Goethite + Quartz + Jarosite</strong> เข้มข้นสูงสุดที่จุด <strong>C10 (Band Depth 0.100)</strong> และ C02 (0.090) แสดงถึงการผุพังของสายแร่ซัลไฟด์ (Pyrite/Chalcopyrite) ที่มักเกิดร่วมกับทองคำ</p>
+      </div>
+      <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 10px; padding: 1.25rem;">
+        <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">💎 โซนแร่ดินเหนียวน้ำร้อน (Hydrothermal Clay)</h4>
+        <p style="font-size: 0.9rem; color: #cbd5e1;">พบ <strong>Kaolinite + Muscovite (Ruby Mica)</strong> สูงสุดที่จุด <strong>C10 (Band Depth 0.200)</strong> และพบ <strong>Halloysite (0.159)</strong> หนาแน่นที่จุด <strong>C07</strong> บ่งบอกถึงโซนแปรสภาพ Phyllic / Argillic</p>
+      </div>
+      <div style="background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.25); border-radius: 10px; padding: 1.25rem;">
+        <h4 style="color: #f87171; margin-bottom: 0.5rem;">🔥 ตัวชี้วัดอุณหภูมิสูง (Dickite Anomaly)</h4>
+        <p style="font-size: 0.9rem; color: #cbd5e1;">พบแร่ <strong>Dickite</strong> บนลานยอดเนินที่จุด <strong>C03 (Band Depth 0.059)</strong> ซึ่งเป็นแร่สำคัญที่เกิดในสภาวะน้ำร้อนอุณหภูมิสูงของระบบ <strong>Epithermal Gold Deposit</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: CANDIDATE TARGETS TABLE -->
+  <section class="card">
+    <div class="section-title">
+      <span class="icon">🎯</span> 3. ตารางพิกัดและการวิเคราะห์ 10 แคนดิเดตหลุมเจาะในแปลง R1
+    </div>
+    <p style="color: var(--text-muted); margin-bottom: 1rem;">
+      ทุกจุดแคนดิเดต (C01 – C10) ผ่านการตรวจสอบยืนยันแล้วว่า <strong>ตกอยู่ภายในขอบเขตพิกเซลจริงของแปลง R1 ทั้งหมด 100%</strong>:
+    </p>
+
+    <div class="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Priority</th>
+            <th>Easting (m)</th>
+            <th>Northing (m)</th>
+            <th>Latitude (°N)</th>
+            <th>Longitude (°E)</th>
+            <th>Elev (m)</th>
+            <th>Slope</th>
+            <th>แร่เด่นที่พบ (NASA EMIT)</th>
+            <th>Band Depth</th>
+            <th>ข้อเสนอแนะในการเจาะ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong style="color: #ef4444; font-size: 1.05rem;">C10</strong></td>
+            <td><span class="badge-rank1">Rank 1 (หลัก)</span></td>
+            <td class="mono">779,502.0</td>
+            <td class="mono">2,021,538.0</td>
+            <td class="mono">18.265105</td>
+            <td class="mono">101.643454</td>
+            <td class="mono">362.5 m</td>
+            <td class="mono">11.3°</td>
+            <td>Goethite+Qtz+Jarosite / Kaolinite+Mica</td>
+            <td class="mono">0.100 / 0.200</td>
+            <td><strong>DH-R1-01:</strong> Az 225°, Dip -55°, Depth 100m</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #ef4444; font-size: 1.05rem;">C07</strong></td>
+            <td><span class="badge-rank1">Rank 1 (หลัก)</span></td>
+            <td class="mono">779,535.5</td>
+            <td class="mono">2,021,584.5</td>
+            <td class="mono">18.265521</td>
+            <td class="mono">101.643776</td>
+            <td class="mono">396.4 m</td>
+            <td class="mono">24.5°</td>
+            <td>Halloysite / Goethite+Jarosite</td>
+            <td class="mono">0.078 / 0.159</td>
+            <td><strong>DH-R1-02:</strong> Az 240°, Dip -50°, Depth 120m</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #ef4444; font-size: 1.05rem;">C06</strong></td>
+            <td><span class="badge-rank1">Rank 1 (หลัก)</span></td>
+            <td class="mono">779,435.5</td>
+            <td class="mono">2,021,566.4</td>
+            <td class="mono">18.265370</td>
+            <td class="mono">101.642829</td>
+            <td class="mono">366.6 m</td>
+            <td class="mono">16.5°</td>
+            <td>Kaolinite+Muscovite / Goethite</td>
+            <td class="mono">0.084 / 0.135</td>
+            <td>DH-R1-03: Az 230°, Dip -50°, Depth 80m</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #f97316;">C02</strong></td>
+            <td><span class="badge-rank2">Rank 2</span></td>
+            <td class="mono">779,548.0</td>
+            <td class="mono">2,021,496.0</td>
+            <td class="mono">18.264720</td>
+            <td class="mono">101.643883</td>
+            <td class="mono">359.6 m</td>
+            <td class="mono">9.5°</td>
+            <td>Kaolinite+Muscovite / Goethite+Jarosite</td>
+            <td class="mono">0.090 / 0.133</td>
+            <td>ลานเปิดโล่งด้านใต้ ตั้งแท่นเจาะง่ายมาก</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #f97316;">C01</strong></td>
+            <td><span class="badge-rank2">Rank 2</span></td>
+            <td class="mono">779,467.5</td>
+            <td class="mono">2,021,615.0</td>
+            <td class="mono">18.265805</td>
+            <td class="mono">101.643138</td>
+            <td class="mono">372.2 m</td>
+            <td class="mono">18.7°</td>
+            <td>Kaolinite+Muscovite / Goethite</td>
+            <td class="mono">0.076 / 0.120</td>
+            <td>แนวต่อเชื่อมโครงสร้างสันเขาตะวันตกเฉียงเหนือ</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #f97316;">C03</strong></td>
+            <td><span class="badge-rank2">Rank 2</span></td>
+            <td class="mono">779,522.9</td>
+            <td class="mono">2,021,664.3</td>
+            <td class="mono">18.266243</td>
+            <td class="mono">101.643668</td>
+            <td class="mono">384.2 m</td>
+            <td class="mono">4.7°</td>
+            <td>Dickite (Epithermal Indicator)</td>
+            <td class="mono">0.059</td>
+            <td>ลานราบบนยอดเนิน เจาะดักแนวแกนน้ำร้อนลึก</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #3b82f6;">C04</strong></td>
+            <td><span class="badge-rank3">Rank 3</span></td>
+            <td class="mono">779,588.6</td>
+            <td class="mono">2,021,617.1</td>
+            <td class="mono">18.265809</td>
+            <td class="mono">101.644283</td>
+            <td class="mono">403.5 m</td>
+            <td class="mono">14.5°</td>
+            <td>Kaolinite+Muscovite</td>
+            <td class="mono">0.088</td>
+            <td>ยอดเนินเขาสูงสุดของแปลง (403.5 ม.)</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #3b82f6;">C08</strong></td>
+            <td><span class="badge-rank3">Rank 3</span></td>
+            <td class="mono">779,607.1</td>
+            <td class="mono">2,021,464.3</td>
+            <td class="mono">18.264426</td>
+            <td class="mono">101.644437</td>
+            <td class="mono">356.4 m</td>
+            <td class="mono">22.7°</td>
+            <td>Goethite+Jarosite / Kaolinite</td>
+            <td class="mono">0.071 / 0.086</td>
+            <td>เชิงเขารับน้ำทิศใต้ เหมาะร่อนแร่สำรวจ (Panning)</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #3b82f6;">C05</strong></td>
+            <td><span class="badge-rank3">Rank 3</span></td>
+            <td class="mono">779,330.0</td>
+            <td class="mono">2,021,540.0</td>
+            <td class="mono">18.265146</td>
+            <td class="mono">101.641828</td>
+            <td class="mono">368.6 m</td>
+            <td class="mono">12.6°</td>
+            <td>Kaolinite+Muscovite</td>
+            <td class="mono">0.082</td>
+            <td>ขอบสุดด้านตะวันตกของแปลง R1</td>
+          </tr>
+          <tr>
+            <td><strong style="color: #3b82f6;">C09</strong></td>
+            <td><span class="badge-rank3">Rank 3</span></td>
+            <td class="mono">779,374.4</td>
+            <td class="mono">2,021,583.3</td>
+            <td class="mono">18.265531</td>
+            <td class="mono">101.642254</td>
+            <td class="mono">372.2 m</td>
+            <td class="mono">19.5°</td>
+            <td>Kaolinite+Muscovite</td>
+            <td class="mono">0.080</td>
+            <td>ขอบทางลาดตะวันตกเฉียงเหนือ</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- EXPORT ACTIONS -->
+    <div class="btn-group">
+      <a href="visuals/r1_candidates.kml" download class="btn primary">
+        <span>📍</span> ดาวน์โหลด KML สำหรับ Google Earth / GPS
+      </a>
+      <a href="visuals/r1_candidates.geojson" download class="btn">
+        <span>🗺️</span> ดาวน์โหลด GeoJSON สำหรับ QGIS / ArcGIS
+      </a>
+      <a href="R1_CANDIDATE_EXPLORATION_PLAN.md" class="btn">
+        <span>📄</span> เปิดดูแผนปฏิบัติการฉบับเต็ม (.md)
+      </a>
+    </div>
+  </section>
+
+  <!-- SECTION 4: RECOMMENDED DRILLING PROGRAM -->
+  <section class="card">
+    <div class="section-title">
+      <span class="icon">🏗️</span> 4. ข้อเสนอแนะโปรแกรมหลุมเจาะสำรวจระยะแรก (Proposed Phase 1 Drilling)
+    </div>
+    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+      การเจาะสำรวจสายแร่น้ำร้อนใต้ผิวดิน <strong>ห้ามเจาะดิ่ง 90°</strong> แนะนำให้ใช้การเจาะทำมุมทแยง (Inclined Diamond Core Drilling - HQ/NQ) เพื่อตัดผ่านสายควอตซ์และรอยเลื่อน โดยเริ่มจาก 2 หลุมทดสอบหลัก:
+    </p>
+
+    <div class="targets-grid">
+      <!-- TARGET 1 -->
+      <div class="target-card primary">
+        <div class="target-header">
+          <div class="target-title">
+            <span style="color: #ef4444;">★</span> หลุมหลัก DH-R1-01 (จุด C10)
+          </div>
+          <span class="badge-rank1">Priority 1</span>
+        </div>
+        <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 0.75rem;">
+          ตั้งแท่นเจาะที่ใจกลางความเข้มข้นของแร่ Goethite+Jarosite+Kaolinite บนความลาดชันเพียง 11.3°
+        </p>
+        <div class="param-list">
+          <div class="param-item">
+            <span class="param-k">Collar พิกัดปากหลุม</span>
+            <span class="param-v">779502 E, 2021538 N</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">ระดับความสูง (Z)</span>
+            <span class="param-v">362.5 m ASL</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">มุมทิศ (Azimuth)</span>
+            <span class="param-v">225° (ทิศตะวันตกเฉียงใต้)</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">มุมก้ม (Dip)</span>
+            <span class="param-v">-55°</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">ความลึกเป้าหมาย</span>
+            <span class="param-v">80 – 120 เมตร</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">เป้าหมายทางธรณีวิทยา</span>
+            <span class="param-v">ตัดผ่านใต้หมวกเหล็ก Gossan สู่ Quartz-Pyrite Vein</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- TARGET 2 -->
+      <div class="target-card">
+        <div class="target-header">
+          <div class="target-title">
+            <span style="color: #f97316;">★</span> หลุมทดสอบ DH-R1-02 (จุด C07)
+          </div>
+          <span class="badge-rank1">Priority 1</span>
+        </div>
+        <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 0.75rem;">
+          ตั้งแท่นเจาะบนสันเขาที่ตรวจพบแร่ Halloysite หนาแน่น เจาะตัดผ่านรอยแตกโครงสร้าง
+        </p>
+        <div class="param-list">
+          <div class="param-item">
+            <span class="param-k">Collar พิกัดปากหลุม</span>
+            <span class="param-v">779535 E, 2021585 N</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">ระดับความสูง (Z)</span>
+            <span class="param-v">396.4 m ASL</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">มุมทิศ (Azimuth)</span>
+            <span class="param-v">240° (ทิศตะวันตก-ตะวันตกเฉียงใต้)</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">มุมก้ม (Dip)</span>
+            <span class="param-v">-50°</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">ความลึกเป้าหมาย</span>
+            <span class="param-v">100 – 150 เมตร</span>
+          </div>
+          <div class="param-item">
+            <span class="param-k">เป้าหมายทางธรณีวิทยา</span>
+            <span class="param-v">ทดสอบโซน Halloysite และแกนรอยเลื่อนลึก</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Site 02 Gold Exploration Project | NASA EMIT & Sentinel-2 Data Fusion Report</p>
+    <p style="margin-top: 0.35rem; font-size: 0.8rem;">พิกัดและข้อมูลทั้งหมดประมวลผลบนระบบ WGS 84 / UTM Zone 47N (EPSG:32647) | วันที่จัดทำรายงาน: ตุลาคม 2026</p>
+  </footer>
+
+</div>
+
+</body>
+</html>

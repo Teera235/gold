@@ -1,0 +1,5 @@
+point_id,type,dist_from_R1_m,upstream_cells,easting,northing,lat,lon,elev_m
+R1-D01,stream_sediment_pan,80,100,779730.0,2021370.0,18.263559,101.645585,342.1
+R1-D02,stream_sediment_pan,80,60,779640.0,2021400.0,18.263841,101.644739,347.9
+R1-D03,stream_sediment_pan,80,13,779670.0,2021700.0,18.266546,101.645063,368.1
+R1-D04,stream_sediment_pan,250,47,779850.0,2021670.0,18.266252,101.64676,351.8

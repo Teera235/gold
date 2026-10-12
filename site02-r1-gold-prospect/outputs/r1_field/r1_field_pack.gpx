@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="make_r1_field_pack.py" xmlns="http://www.topografix.com/GPX/1/1">
+<wpt lat="18.263855" lon="101.644568"><ele>353.2</ele><name>R1-G001</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.263915" lon="101.644195"><ele>363.1</ele><name>R1-G002</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264152" lon="101.645003"><ele>362.0</ele><name>R1-G003</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264212" lon="101.64463"><ele>353.9</ele><name>R1-G004</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264271" lon="101.644258"><ele>353.7</ele><name>R1-G005</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264331" lon="101.643885"><ele>359.5</ele><name>R1-G006</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.26439" lon="101.643512"><ele>371.6</ele><name>R1-G007</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264628" lon="101.64202"><ele>380.4</ele><name>R1-G008</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264687" lon="101.641647"><ele>377.3</ele><name>R1-G009</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264508" lon="101.645066"><ele>376.4</ele><name>R1-G010</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264568" lon="101.644693"><ele>379.5</ele><name>R1-G011</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264627" lon="101.64432"><ele>363.6</ele><name>R1-G012</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264687" lon="101.643947"><ele>359.6</ele><name>R1-G013</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264746" lon="101.643574"><ele>364.5</ele><name>R1-G014</name><desc>zone S; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264806" lon="101.643201"><ele>373.2</ele><name>R1-G015</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264865" lon="101.642828"><ele>372.5</ele><name>R1-G016</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264925" lon="101.642455"><ele>374.6</ele><name>R1-G017</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264984" lon="101.642082"><ele>371.4</ele><name>R1-G018</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265044" lon="101.64171"><ele>372.6</ele><name>R1-G019</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.264984" lon="101.644382"><ele>386.5</ele><name>R1-G020</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265043" lon="101.644009"><ele>369.4</ele><name>R1-G021</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265103" lon="101.643636"><ele>372.1</ele><name>R1-G022</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265162" lon="101.643263"><ele>362.5</ele><name>R1-G023</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265221" lon="101.64289"><ele>361.1</ele><name>R1-G024</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265281" lon="101.642518"><ele>362.4</ele><name>R1-G025</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.26534" lon="101.642145"><ele>364.8</ele><name>R1-G026</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.2654" lon="101.641772"><ele>383.2</ele><name>R1-G027</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.26528" lon="101.644817"><ele>406.3</ele><name>R1-G028</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.26534" lon="101.644444"><ele>410.5</ele><name>R1-G029</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265399" lon="101.644071"><ele>405.6</ele><name>R1-G030</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265459" lon="101.643698"><ele>380.0</ele><name>R1-G031</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265518" lon="101.643326"><ele>366.9</ele><name>R1-G032</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265578" lon="101.642953"><ele>365.4</ele><name>R1-G033</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265637" lon="101.64258"><ele>381.4</ele><name>R1-G034</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265697" lon="101.642207"><ele>383.9</ele><name>R1-G035</name><desc>zone W; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265637" lon="101.644879"><ele>409.8</ele><name>R1-G036</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265696" lon="101.644507"><ele>408.4</ele><name>R1-G037</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265756" lon="101.644134"><ele>403.5</ele><name>R1-G038</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265815" lon="101.643761"><ele>381.8</ele><name>R1-G039</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265875" lon="101.643388"><ele>371.1</ele><name>R1-G040</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265934" lon="101.643015"><ele>384.2</ele><name>R1-G041</name><desc>zone C; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.265993" lon="101.642642"><ele>397.2</ele><name>R1-G042</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.266052" lon="101.644569"><ele>400.9</ele><name>R1-G043</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.266112" lon="101.644196"><ele>397.9</ele><name>R1-G044</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.266171" lon="101.643823"><ele>388.8</ele><name>R1-G045</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.266231" lon="101.64345"><ele>383.9</ele><name>R1-G046</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.266409" lon="101.644631"><ele>386.6</ele><name>R1-G047</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.266468" lon="101.644258"><ele>377.1</ele><name>R1-G048</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.266528" lon="101.643885"><ele>381.4</ele><name>R1-G049</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.266587" lon="101.643512"><ele>383.6</ele><name>R1-G050</name><desc>zone N; soil grid 40 m</desc><sym>Flag, Blue</sym></wpt>
+<wpt lat="18.263559" lon="101.645585"><ele>342.1</ele><name>R1-D01</name><desc>stream sediment / panning, ~80 m below R1</desc><sym>Flag, Green</sym></wpt>
+<wpt lat="18.263841" lon="101.644739"><ele>347.9</ele><name>R1-D02</name><desc>stream sediment / panning, ~80 m below R1</desc><sym>Flag, Green</sym></wpt>
+<wpt lat="18.266546" lon="101.645063"><ele>368.1</ele><name>R1-D03</name><desc>stream sediment / panning, ~80 m below R1</desc><sym>Flag, Green</sym></wpt>
+<wpt lat="18.266252" lon="101.64676"><ele>351.8</ele><name>R1-D04</name><desc>stream sediment / panning, ~250 m below R1</desc><sym>Flag, Green</sym></wpt>
+<wpt lat="18.265105" lon="101.643454"><name>old-C10</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.265521" lon="101.643776"><name>old-C07</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.265371" lon="101.642829"><name>old-C06</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.264720" lon="101.643883"><name>old-C02</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.265805" lon="101.643138"><name>old-C01</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.266243" lon="101.643668"><name>old-C03</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.265808" lon="101.644283"><name>old-C04</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.264426" lon="101.644437"><name>old-C08</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.265146" lon="101.641828"><name>old-C05</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<wpt lat="18.265531" lon="101.642254"><name>old-C09</name><desc>reference only, from earlier satellite plan</desc><sym>Pin, Red</sym></wpt>
+<trk><name>R1-T01</name><trkseg><trkpt lat="18.267091" lon="101.646092"/><trkpt lat="18.262948" lon="101.645368"/></trkseg></trk>
+<trk><name>R1-T02</name><trkseg><trkpt lat="18.267180" lon="101.645532"/><trkpt lat="18.263037" lon="101.644808"/></trkseg></trk>
+<trk><name>R1-T03</name><trkseg><trkpt lat="18.267270" lon="101.644973"/><trkpt lat="18.263126" lon="101.644249"/></trkseg></trk>
+<trk><name>R1-T04</name><trkseg><trkpt lat="18.267359" lon="101.644414"/><trkpt lat="18.263215" lon="101.643690"/></trkseg></trk>
+<trk><name>R1-T05</name><trkseg><trkpt lat="18.267448" lon="101.643854"/><trkpt lat="18.263305" lon="101.643130"/></trkseg></trk>
+<trk><name>R1-T06</name><trkseg><trkpt lat="18.267537" lon="101.643295"/><trkpt lat="18.263394" lon="101.642571"/></trkseg></trk>
+<trk><name>R1-T07</name><trkseg><trkpt lat="18.267626" lon="101.642736"/><trkpt lat="18.263483" lon="101.642012"/></trkseg></trk>
+<trk><name>R1-T08</name><trkseg><trkpt lat="18.267716" lon="101.642176"/><trkpt lat="18.263572" lon="101.641452"/></trkseg></trk>
+<trk><name>R1-T09</name><trkseg><trkpt lat="18.267805" lon="101.641617"/><trkpt lat="18.263661" lon="101.640893"/></trkseg></trk>
+</gpx>

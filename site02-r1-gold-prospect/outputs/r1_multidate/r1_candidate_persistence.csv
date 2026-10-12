@@ -1,0 +1,11 @@
+id,clear_dates,fe_oxide_dates,clay_mica_dates,dickite_dates,dry_veg_dates,no_g2_detect_dates,distinct_emit_pixels_used
+C01,1,1,1,0,0,0,1
+C02,3,3,2,0,0,0,3
+C03,2,0,0,0,0,0,2
+C04,3,1,2,0,0,0,3
+C05,2,1,2,0,0,0,2
+C06,1,1,1,0,0,0,1
+C07,2,1,1,0,0,0,2
+C08,3,3,3,0,0,0,3
+C09,1,0,1,0,0,0,1
+C10,1,1,1,0,0,0,1

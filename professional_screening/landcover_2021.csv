@@ -1,0 +1,12 @@
+code,land_cover,area_ha,aoi_percent
+10,Tree cover,3362.7200000000003,86.4239159487633
+20,Shrubland,0.0,0.0
+30,Grassland,419.2,10.773690811522092
+40,Cropland,109.04,2.8023932397146205
+50,Built-up,0.0,0.0
+60,Bare / sparse,0.0,0.0
+70,Snow / ice,0.0,0.0
+80,Permanent water,0.0,0.0
+90,Herbaceous wetland,0.0,0.0
+95,Mangrove,0.0,0.0
+100,Moss / lichen,0.0,0.0

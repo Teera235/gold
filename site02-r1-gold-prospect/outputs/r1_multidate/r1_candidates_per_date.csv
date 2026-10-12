@@ -1,0 +1,81 @@
+date,id,emit_pixel,dist_m,clear,g1,g1_bd,g2,g2_bd,g1_family,g2_family
+2025-01-22,C10,857_962,24.8,True,Goethite_Thin_Film WS222 W1R1Ba,0.1,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.2,fe_oxide,kaolinite(+mica)
+2025-01-22,C07,858_962,20.6,True,Goethite_Thin_Film WS222 W1R1Ba,0.078,Kaolinite KGa-2 (pxl) W1R1Hb,0.159,fe_oxide,kaolinite(+mica)
+2025-01-22,C06,857_963,20.0,True,Goethite_Thin_Film WS222 W1R1Ba,0.084,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.135,fe_oxide,kaolinite(+mica)
+2025-01-22,C02,857_961,23.5,True,Goethite_Thin_Film WS222 W1R1Ba,0.09,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.133,fe_oxide,kaolinite(+mica)
+2025-01-22,C01,858_963,25.5,True,Goethite_Thin_Film WS222 W1R1Ba,0.076,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.12,fe_oxide,kaolinite(+mica)
+2025-01-22,C03,859_963,10.9,True,-,0.0,Nacrite GDS88 s06crj3a=c,0.059,-,other:Nacrite
+2025-01-22,C04,859_962,4.6,True,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.088,-,kaolinite(+mica)
+2025-01-22,C08,857_960,31.1,True,Goethite_Thin_Film WS222 W1R1Ba,0.071,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.086,fe_oxide,kaolinite(+mica)
+2025-01-22,C05,856_964,30.4,True,Goethite_Thin_Film WS222 W1R1Ba,0.004,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.082,fe_oxide,kaolinite(+mica)
+2025-01-22,C09,857_964,28.8,True,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.08,-,kaolinite(+mica)
+2026-01-21,C10,1179_874,22.9,False,Goethite0.02+Quartz GDS240 W1R1Ba,0.092,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.173,fe_oxide,kaolinite(+mica)
+2026-01-21,C07,1180_874,24.5,False,Goethite0.02+Quartz GDS240 W1R1Ba,0.12,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.216,fe_oxide,kaolinite(+mica)
+2026-01-21,C06,1179_875,29.6,False,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.096,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.09,fe_oxide,kaolinite(+mica)
+2026-01-21,C02,1179_873,24.3,False,Goethite_Thin_Film WS222 W1R1Ba,0.106,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.149,fe_oxide,kaolinite(+mica)
+2026-01-21,C01,1180_875,36.7,False,Goethite_Thin_Film WS222 W1R1Ba,0.094,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.161,fe_oxide,kaolinite(+mica)
+2026-01-21,C03,1181_875,20.5,False,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.122,-,kaolinite(+mica)
+2026-01-21,C04,1181_874,8.3,False,Goethite_Thin_Film WS222 W1R1Ba,0.061,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.163,fe_oxide,kaolinite(+mica)
+2026-01-21,C08,1179_872,25.7,False,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.078,-,kaolinite(+mica)
+2026-01-21,C05,1178_876,44.0,False,Goethite_Thin_Film WS222 W1R1Ba,0.075,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.104,fe_oxide,kaolinite(+mica)
+2026-01-21,C09,1178_876,37.3,False,Goethite_Thin_Film WS222 W1R1Ba,0.075,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.104,fe_oxide,kaolinite(+mica)
+2026-01-25,C10,1057_802,18.1,False,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.078,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.075,fe_oxide,kaolinite(+mica)
+2026-01-25,C07,1058_802,13.5,False,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.075,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.106,fe_oxide,kaolinite(+mica)
+2026-01-25,C06,1057_803,13.0,False,-,0.0,-,0.0,-,-
+2026-01-25,C02,1057_801,13.4,True,Goethite_Thin_Film WS222 W1R1Ba,0.08,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.153,fe_oxide,kaolinite(+mica)
+2026-01-25,C01,1058_803,16.3,False,-,0.0,Vermiculite GDS458 W1R1Hc,0.031,-,other:Vermiculite
+2026-01-25,C03,1059_803,20.8,False,-,0.0,Strontianite HS272.3B W1R1Bb,0.049,-,other:Strontianite
+2026-01-25,C04,1059_801,30.1,True,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.018,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.135,fe_oxide,kaolinite(+mica)
+2026-01-25,C08,1057_800,19.8,True,Goethite_Thin_Film WS222 W1R1Ba,0.102,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.155,fe_oxide,kaolinite(+mica)
+2026-01-25,C05,1056_804,29.8,False,-,0.0,Calcite+.33Muscov AMX5 Ruby W1R1Ba,0.057,-,white_mica
+2026-01-25,C09,1056_804,35.8,False,-,0.0,Calcite+.33Muscov AMX5 Ruby W1R1Ba,0.057,-,white_mica
+2026-04-16,C10,439_307,28.4,False,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.076,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.18,fe_oxide,kaolinite(+mica)
+2026-04-16,C07,438_308,29.3,False,Cummingtonite HS294.3B W1R1Bc,0.057,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.145,other:Cummingtonite,kaolinite(+mica)
+2026-04-16,C06,437_306,39.3,False,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.053,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.143,fe_oxide,kaolinite(+mica)
+2026-04-16,C02,440_307,31.7,False,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.047,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.114,fe_oxide,kaolinite(+mica)
+2026-04-16,C01,437_307,24.4,False,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.094,-,kaolinite(+mica)
+2026-04-16,C03,437_308,33.4,False,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.069,-,kaolinite(+mica)
+2026-04-16,C04,439_309,27.7,False,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.102,-,kaolinite(+mica)
+2026-04-16,C08,441_308,39.8,False,-,0.0,Cronstedtite M3542 =bb_,0.049,-,other:Cronstedtite
+2026-04-16,C05,437_305,29.7,False,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.067,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.137,fe_oxide,kaolinite(+mica)
+2026-04-16,C09,437_306,27.7,False,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.053,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.143,fe_oxide,kaolinite(+mica)
+2026-04-20,C10,767_662,32.1,False,-,0.0,Perchlorate_Mg GDS851.2 220K,0.116,-,other:Perchlorate_Mg
+2026-04-20,C07,767_663,30.1,True,-,0.0,Perchlorate_Mg GDS851.2 220K,0.106,-,other:Perchlorate_Mg
+2026-04-20,C06,766_661,29.0,False,-,0.0,Perchlorate_Mg GDS851.2 220K,0.102,-,other:Perchlorate_Mg
+2026-04-20,C02,768_662,28.2,True,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.057,Perchlorate_Mg GDS851.2 220K,0.11,fe_oxide,other:Perchlorate_Mg
+2026-04-20,C01,766_662,13.2,False,-,0.0,Cronstedtite M3542 =bb_,0.143,-,other:Cronstedtite
+2026-04-20,C03,766_663,21.1,True,-,0.0,Cronstedtite M3542 =bb_,0.125,-,other:Cronstedtite
+2026-04-20,C04,768_664,40.9,True,-,0.0,Perchlorate_Mg GDS851.2 220K,0.141,-,other:Perchlorate_Mg
+2026-04-20,C08,769_662,35.0,True,Fe-Hydroxide SU93-106 amorph W1R1Bb,0.1,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.151,fe_oxide,kaolinite(+mica)
+2026-04-20,C05,765_660,33.3,True,-,0.0,Calcite+.33Muscov AMX5 Ruby W1R1Ba,0.067,-,white_mica
+2026-04-20,C09,766_661,34.8,False,-,0.0,Perchlorate_Mg GDS851.2 220K,0.102,-,other:Perchlorate_Mg
+2026-04-24,C10,645_967,30.1,False,-,0.0,-,0.0,-,-
+2026-04-24,C07,645_968,33.0,False,-,0.0,-,0.0,-,-
+2026-04-24,C06,644_967,22.5,False,-,0.0,-,0.0,-,-
+2026-04-24,C02,646_968,37.2,False,-,0.0,-,0.0,-,-
+2026-04-24,C01,643_968,34.8,False,-,0.0,-,0.0,-,-
+2026-04-24,C03,643_969,33.7,False,-,0.0,-,0.0,-,-
+2026-04-24,C04,645_969,22.0,False,-,0.0,-,0.0,-,-
+2026-04-24,C08,647_968,18.7,False,-,0.0,-,0.0,-,-
+2026-04-24,C05,643_965,29.2,False,-,0.0,-,0.0,-,-
+2026-04-24,C09,643_966,24.3,False,-,0.0,-,0.0,-,-
+2026-04-28,C10,727_124,39.1,False,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.149,-,kaolinite(+mica)
+2026-04-28,C07,726_124,36.2,False,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.137,-,kaolinite(+mica)
+2026-04-28,C06,725_125,26.0,False,-,0.0,Calcite.33+Kaol.33+Mus AMXr2 W1R1Ba,0.086,-,kaolinite(+mica)
+2026-04-28,C02,727_124,34.4,False,-,0.0,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.149,-,kaolinite(+mica)
+2026-04-28,C01,725_124,17.9,False,-,0.0,Calcite+.33Muscov AMX5 Ruby W1R1Ba,0.1,-,white_mica
+2026-04-28,C03,725_123,25.3,False,-,0.0,Calcite+.33Muscov AMX5 Ruby W1R1Ba,0.104,-,white_mica
+2026-04-28,C04,727_123,38.3,False,-,0.0,Kaol.5+MuscCU91-250A AMX13 W1R1Bb,0.125,-,kaolinite(+mica)
+2026-04-28,C08,728_124,30.2,False,-,0.0,-,0.0,-,-
+2026-04-28,C05,725_126,40.9,False,-,0.0,Perchlorate_Mg GDS851.2 220K,0.2,-,other:Perchlorate_Mg
+2026-04-28,C09,725_125,39.3,False,-,0.0,Calcite.33+Kaol.33+Mus AMXr2 W1R1Ba,0.086,-,kaolinite(+mica)
+2026-05-25,C10,736_1174,17.3,False,-,0.0,Witherite HS273.3B W1R1Ba,0.188,-,other:Witherite
+2026-05-25,C07,737_1174,20.0,False,Goethite_Thin_Film WS222 W1R1Ba,0.061,Witherite HS273.3B W1R1Ba,0.173,fe_oxide,other:Witherite
+2026-05-25,C06,736_1175,25.0,False,-,0.0,Calcite.33+Kaol.33+Mus AMXr2 W1R1Ba,0.08,-,kaolinite(+mica)
+2026-05-25,C02,736_1173,20.0,False,-,0.0,Perchlorate_Mg GDS851.2 220K,0.216,-,other:Perchlorate_Mg
+2026-05-25,C01,737_1175,33.3,False,Cummingtonite HS294.3B W1R1Bc,0.063,Witherite HS273.3B W1R1Ba,0.157,other:Cummingtonite,other:Witherite
+2026-05-25,C03,738_1175,17.3,False,Goethite_Thin_Film WS222 W1R1Ba,0.065,Witherite HS273.3B W1R1Ba,0.184,fe_oxide,other:Witherite
+2026-05-25,C04,738_1174,9.9,False,Goethite_Thin_Film WS222 W1R1Ba,0.096,Kaol_Wxl+0.5Musc_Ruby AMX12 W1R1Ba,0.133,fe_oxide,kaolinite(+mica)
+2026-05-25,C08,736_1172,24.2,False,-,0.0,Witherite HS273.3B W1R1Ba,0.192,-,other:Witherite
+2026-05-25,C05,734_1176,36.7,False,-,0.0,Calcite.33+Kaol.33+Mus AMXr2 W1R1Ba,0.069,-,kaolinite(+mica)
+2026-05-25,C09,735_1176,29.2,False,-,0.0,Vermiculite GDS458 W1R1Hc,0.049,-,other:Vermiculite

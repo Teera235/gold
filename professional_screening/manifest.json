@@ -1,0 +1,239 @@
+{
+  "method": {
+    "version": "3.0",
+    "dates": "2025-11-01/2026-04-30",
+    "epsg": 32648,
+    "resolution_m": 20,
+    "max_dates": 8,
+    "ndvi_max": 0.3,
+    "min_observations": 3,
+    "exposed_fraction": 0.6,
+    "ratio_quantile": 0.9,
+    "anomaly_fraction": 0.67,
+    "min_pixels": 8,
+    "cloud_buffer_pixels": 1,
+    "denominator_floor": 0.01
+  },
+  "generated_utc": "2026-10-09T20:33:24.659617+00:00",
+  "status": "UNVALIDATED_RECONNAISSANCE",
+  "aoi_coordinates": [
+    [
+      102.049173,
+      18.539069
+    ],
+    [
+      102.101129,
+      18.539604
+    ],
+    [
+      102.101351,
+      18.522001
+    ],
+    [
+      102.113321,
+      18.522184
+    ],
+    [
+      102.113799,
+      18.49366
+    ],
+    [
+      102.100343,
+      18.493635
+    ],
+    [
+      102.100503,
+      18.465557
+    ],
+    [
+      102.084232,
+      18.465398
+    ],
+    [
+      102.084035,
+      18.478125
+    ],
+    [
+      102.075567,
+      18.478085
+    ],
+    [
+      102.075618,
+      18.493525
+    ],
+    [
+      102.049337,
+      18.493117
+    ]
+  ],
+  "aoi_vector_km2": 38.93440432391373,
+  "aoi_grid_km2": 38.909600000000005,
+  "eligible_area_ha": 3.72,
+  "eligible_aoi_pct": 0.0956062257129346,
+  "polygon_count": 0,
+  "polygon_area_ha": 0.0,
+  "scored_dates": 5,
+  "historical_cover_disagreement_ha": 56.96,
+  "dates": [
+    "2025-11-21",
+    "2025-12-01",
+    "2025-12-21",
+    "2026-01-20",
+    "2026-02-04",
+    "2026-03-26",
+    "2026-04-10",
+    "2026-04-15"
+  ],
+  "scene_ids": [
+    "S2C_MSIL2A_20251121T034501_R061_T47QRA_20251121T063616",
+    "S2C_MSIL2A_20251201T034131_R061_T47QRA_20251201T063318",
+    "S2C_MSIL2A_20251221T034201_R061_T47QRA_20251221T073411",
+    "S2C_MSIL2A_20260120T034051_R061_T47QRA_20260120T062909",
+    "S2B_MSIL2A_20260204T033839_R061_T47QRA_20260204T072652",
+    "S2B_MSIL2A_20260326T033529_R061_T47QRA_20260326T072554",
+    "S2C_MSIL2A_20260410T033531_R061_T47QRA_20260410T090716",
+    "S2B_MSIL2A_20260415T033529_R061_T47QRA_20260415T072933"
+  ],
+  "worldcover_ids": [
+    "ESA_WorldCover_10m_2021_v200_N18E102"
+  ],
+  "radiometry": {
+    "S2C_MSIL2A_20251121T034501_R061_T47QRA_20251121T063616": {
+      "quantification": 10000.0,
+      "offsets": {
+        "B02": -1000.0,
+        "B03": -1000.0,
+        "B04": -1000.0,
+        "B08": -1000.0,
+        "B11": -1000.0,
+        "B12": -1000.0
+      },
+      "xml_sha256": "dd90f7d2beac9d7a6a30794de00dad6e54e30b31241e5ed83029dd47a98a0908"
+    },
+    "S2C_MSIL2A_20251201T034131_R061_T47QRA_20251201T063318": {
+      "quantification": 10000.0,
+      "offsets": {
+        "B02": -1000.0,
+        "B03": -1000.0,
+        "B04": -1000.0,
+        "B08": -1000.0,
+        "B11": -1000.0,
+        "B12": -1000.0
+      },
+      "xml_sha256": "ffd945afc2c455ca96d185417643809b6c0d412298944f330f51cd2835d7c1aa"
+    },
+    "S2C_MSIL2A_20251221T034201_R061_T47QRA_20251221T073411": {
+      "quantification": 10000.0,
+      "offsets": {
+        "B02": -1000.0,
+        "B03": -1000.0,
+        "B04": -1000.0,
+        "B08": -1000.0,
+        "B11": -1000.0,
+        "B12": -1000.0
+      },
+      "xml_sha256": "c0fc7fc192e777de183a709ecbbba3ebbc5f0dd5a809d64e5f6574c5ba0df5d6"
+    },
+    "S2C_MSIL2A_20260120T034051_R061_T47QRA_20260120T062909": {
+      "quantification": 10000.0,
+      "offsets": {
+        "B02": -1000.0,
+        "B03": -1000.0,
+        "B04": -1000.0,
+        "B08": -1000.0,
+        "B11": -1000.0,
+        "B12": -1000.0
+      },
+      "xml_sha256": "3ccd7ffac6fb66a92a68314645e127ac8b02da3406218a90713974724fcca4a5"
+    },
+    "S2B_MSIL2A_20260204T033839_R061_T47QRA_20260204T072652": {
+      "quantification": 10000.0,
+      "offsets": {
+        "B02": -1000.0,
+        "B03": -1000.0,
+        "B04": -1000.0,
+        "B08": -1000.0,
+        "B11": -1000.0,
+        "B12": -1000.0
+      },
+      "xml_sha256": "97000029d94e767d7f8d7e6b4b44ad202a898d3e9bc9a1dba78f1166710f22ac"
+    },
+    "S2B_MSIL2A_20260326T033529_R061_T47QRA_20260326T072554": {
+      "quantification": 10000.0,
+      "offsets": {
+        "B02": -1000.0,
+        "B03": -1000.0,
+        "B04": -1000.0,
+        "B08": -1000.0,
+        "B11": -1000.0,
+        "B12": -1000.0
+      },
+      "xml_sha256": "6d029f48e0ebe647c064742aa2ce626811eb711e0b707cf2d136162d8e03224d"
+    },
+    "S2C_MSIL2A_20260410T033531_R061_T47QRA_20260410T090716": {
+      "quantification": 10000.0,
+      "offsets": {
+        "B02": -1000.0,
+        "B03": -1000.0,
+        "B04": -1000.0,
+        "B08": -1000.0,
+        "B11": -1000.0,
+        "B12": -1000.0
+      },
+      "xml_sha256": "1d24d87ac7c70eec25d8f50de77f09f39640b8bc5fc0c97e4cd3f9ace223cd96"
+    },
+    "S2B_MSIL2A_20260415T033529_R061_T47QRA_20260415T072933": {
+      "quantification": 10000.0,
+      "offsets": {
+        "B02": -1000.0,
+        "B03": -1000.0,
+        "B04": -1000.0,
+        "B08": -1000.0,
+        "B11": -1000.0,
+        "B12": -1000.0
+      },
+      "xml_sha256": "e2246e8eb6fe6d43482c2300044036cce88317e8fca59dd51b6eb7bf4c3fc21b"
+    }
+  },
+  "source_catalog": "https://planetarycomputer.microsoft.com/api/stac/v1",
+  "input_cube_sha256": "41b4d4838d05b4f6af38ade2cd6a1041d4fc322d22ed0764836dd45eff5e9e21",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "geopandas": "1.1.4",
+    "rasterio": "1.5.0",
+    "stackstac": "0.5.1",
+    "scipy": "1.17.1",
+    "pystac-client": "0.9.0",
+    "planetary-computer": "1.0.0",
+    "rioxarray": "0.23.0"
+  },
+  "ground_validation": "Not available; no assays or independent site labels",
+  "sources": [
+    {
+      "title": "Sentinel-2 processing",
+      "url": "https://sentiwiki.copernicus.eu/web/s2-processing",
+      "use": "Product radiometry and quality",
+      "limit": "Calibration is not mineral validation"
+    },
+    {
+      "title": "ESA WorldCover",
+      "url": "https://esa-worldcover.org/en/about/objectives",
+      "use": "Historical 2021 land cover, global accuracy 76.7%",
+      "limit": "Not current land use or site accuracy"
+    },
+    {
+      "title": "Duolong multisensor alteration study",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169136818301173",
+      "use": "Literature context; abstract/search excerpt only",
+      "limit": "Full publisher text not retrieved; arid study is not Laos validation"
+    },
+    {
+      "title": "CLMTV Lao DGM presentation, 2016",
+      "url": "https://www.dmr.go.th/wp-content/uploads/2023/02/01-Lao-PDR_CLMTV.pdf",
+      "use": "Regional geological context and map availability",
+      "limit": "Regional map scale cannot validate this AOI's observations"
+    }
+  ],
+  "checks": "passed: calibration metadata, grid, AOI containment, connected area, support, exported feature count"
+}

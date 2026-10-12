@@ -1,0 +1,11 @@
+{
+  "source_manifest": "../manifest.json",
+  "dem_items": [
+    "Copernicus_DSM_COG_10_N18_00_E102_00_DEM"
+  ],
+  "terrain_grid_m": 30,
+  "terrain_resampling": "bilinear",
+  "slope_method": "arctan magnitude of central finite differences; DSM, no ground-surface correction",
+  "spectral_display": "median per-date ratios on exposed surfaces before WorldCover veto; P2/P98 display clipping only",
+  "confirmed_gold_targets": 0
+}

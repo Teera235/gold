@@ -1,0 +1,27 @@
+FIELD READINESS: NOT CLEARED FOR EXCAVATION
+
+Previous T01-T06 rankings are WITHDRAWN. The previous workflow omitted a -1000 BOA radiometric offset before division by 10000. This was checked against the product XML of the first input scene; the revised workflow requires offset metadata for every input scene. Recalculated observations do not confirm gold.
+
+Evidence gaps
+- No independent Au assay, verified mineral occurrence or site geological assessment supports these coordinates.
+- Sentinel-2 ratios are broad surface proxies. Vegetation masks are not validated land-use classes.
+- Images span 2023-2025 and cannot certify present site conditions.
+- The 95th percentile necessarily selects relative highs; weights are uncalibrated.
+- Two exposed observations do not prove persistent bare soil across all dates.
+- Copernicus GLO-30 is a surface model resampled onto a 30 m UTM grid, not a surveyed ground terrain model.
+- Access rights, excavation permission, UXO clearance, slope stability and underground conditions have not been verified.
+
+Recommended visit scope
+1. Meet the site owner and a qualified local geologist. Verify site access and current permissions with local authorities.
+2. Have local qualified personnel confirm UXO assessment/clearance before any disturbance. This map cannot establish clearance.
+3. From established safe access, record GNSS coordinates, timestamped photographs, exposed rock/soil, vegetation, roads, workings and drainage. Do not treat any old T-ID as a digging instruction.
+4. Only after safety and permissions are established, have the geologist design representative and control sampling with an appropriate laboratory, including blanks, duplicates, certified reference materials and chain of custody.
+5. Decide further work from geological observations and independent laboratory results. Neither a bright pixel nor a revised R-ID is a gold finding.
+
+Sources
+Sentinel radiometric processing: https://sentiwiki.copernicus.eu/web/s2-processing
+Laos UXO travel safety: https://www.gov.uk/foreign-travel-advice/laos/safety-and-security
+
+If personal threats are involved, do not attend the site alone or travel to meet the threatening party. Seek trusted local authorities or consular assistance.
+
+Verified rerun: all six input-scene offsets read from product metadata. Eligible surface fell from 26.07% to 7.40% of the raster extent. No polygons survived the existing spatial filters. CSV and GeoJSON contain zero targets. This is not evidence that gold is absent.

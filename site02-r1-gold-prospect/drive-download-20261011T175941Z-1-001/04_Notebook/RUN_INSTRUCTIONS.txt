@@ -1,0 +1,5 @@
+เปิด main.ipynb โดยตั้ง working directory เป็น 04_Notebook แล้ว Run All ด้วย Python ที่มีแพ็กเกจตาม requirements-lock.txt
+อินพุตที่เก็บไว้เป็นข้อมูลชุดที่ใช้รายงานนี้ อย่าเปิด REFRESH หากต้องการทวนผลเดิม
+ผลรันอยู่ 03_Data หลังรันใหม่ให้คัดลอก GeoTIFF/atlas ไป02_Maps และสร้างแผนที่ด้วย python make_field_maps.py
+หากเปลี่ยน AOI/เกณฑ์ ต้องแก้รายงาน ชื่อและข้อความตัวเลขใน make_field_maps.py ด้วย เพราะเป็นชุดส่งมอบเฉพาะ Site02
+Notebook ไม่มีคอมเมนต์ในโค้ด คำอธิบายวิธีอยู่ใน Markdown cells

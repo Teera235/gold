@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>R1 ten provisional holes (unvalidated, UTM 47N assumed)</name>
+<Placemark><name>CAMP</name><Point><coordinates>101.64259225,18.26464977</coordinates></Point></Placemark>
+<Placemark><name>DT-1</name><description>phase 1, pad P1, azimuth 50, dip -49, planned 80 m, desk score 0.66</description><Point><coordinates>101.643759,18.265006</coordinates></Point></Placemark>
+<Placemark><name>DT-1 trace</name><LineString><coordinates>101.643759,18.265006 101.643943,18.265149</coordinates></LineString></Placemark>
+<Placemark><name>DT-2</name><description>phase 1, pad P2, azimuth 10, dip -52, planned 100 m, desk score 0.611</description><Point><coordinates>101.643408,18.26515</coordinates></Point></Placemark>
+<Placemark><name>DT-2 trace</name><LineString><coordinates>101.643408,18.26515 101.64347,18.26546</coordinates></LineString></Placemark>
+<Placemark><name>DT-3</name><description>phase 1, pad P3, azimuth 35, dip -54, planned 100 m, desk score 0.506</description><Point><coordinates>101.64402,18.265616</coordinates></Point></Placemark>
+<Placemark><name>DT-3 trace</name><LineString><coordinates>101.64402,18.265616 101.644186,18.265835</coordinates></LineString></Placemark>
+<Placemark><name>DT-4</name><description>phase 1, pad P2, azimuth 225, dip -52, planned 110 m, desk score 0.548</description><Point><coordinates>101.643339,18.265337</coordinates></Point></Placemark>
+<Placemark><name>DT-4 trace</name><LineString><coordinates>101.643339,18.265337 101.643068,18.265086</coordinates></LineString></Placemark>
+<Placemark><name>RH-05</name><description>phase 2, pad P4, azimuth 15, dip -53, planned 100 m, desk score 0.565</description><Point><coordinates>101.644108,18.264492</coordinates></Point></Placemark>
+<Placemark><name>RH-05 trace</name><LineString><coordinates>101.644108,18.264492 101.644185,18.264752</coordinates></LineString></Placemark>
+<Placemark><name>RH-06</name><description>phase 2, pad P1, azimuth 200, dip -55, planned 110 m, desk score 0.537</description><Point><coordinates>101.643736,18.265055</coordinates></Point></Placemark>
+<Placemark><name>RH-06 trace</name><LineString><coordinates>101.643736,18.265055 101.643618,18.26476</coordinates></LineString></Placemark>
+<Placemark><name>RH-07</name><description>phase 2, pad P5, azimuth 5, dip -51, planned 100 m, desk score 0.493</description><Point><coordinates>101.643034,18.265537</coordinates></Point></Placemark>
+<Placemark><name>RH-07 trace</name><LineString><coordinates>101.643034,18.265537 101.643068,18.265851</coordinates></LineString></Placemark>
+<Placemark><name>RH-08</name><description>phase 2, pad P6, azimuth 5, dip -51, planned 100 m, desk score 0.461</description><Point><coordinates>101.644524,18.264071</coordinates></Point></Placemark>
+<Placemark><name>RH-08 trace</name><LineString><coordinates>101.644524,18.264071 101.644558,18.264386</coordinates></LineString></Placemark>
+<Placemark><name>RH-09</name><description>phase 2, pad P7, azimuth 10, dip -53, planned 100 m, desk score 0.438</description><Point><coordinates>101.642622,18.265185</coordinates></Point></Placemark>
+<Placemark><name>RH-09 trace</name><LineString><coordinates>101.642622,18.265185 101.642684,18.265495</coordinates></LineString></Placemark>
+<Placemark><name>RH-10</name><description>phase 2, pad P8, azimuth 190, dip -52, planned 90 m, desk score 0.439</description><Point><coordinates>101.641971,18.26505</coordinates></Point></Placemark>
+<Placemark><name>RH-10 trace</name><LineString><coordinates>101.641971,18.26505 101.641917,18.264784</coordinates></LineString></Placemark>
+</Document></kml>

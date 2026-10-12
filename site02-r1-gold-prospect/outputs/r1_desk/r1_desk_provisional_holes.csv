@@ -1,0 +1,5 @@
+candidate,assumed_strike,hole_azimuth,hole_dip,collar_e,collar_n,collar_lat,collar_lon,collar_elev,collar_slope,cut_angle_vs_assumed_structure,length_to_target_m,planned_depth_m
+DT-1,117,50,-49,779534.5,2021527.5,18.265006,101.643759,363.7,9.1,37,38,80
+DT-2,117,10,-52,779497.1,2021542.9,18.26515,101.643408,362.5,11.3,36,57,100
+DT-3,117,35,-54,779561.1,2021595.4,18.265616,101.64402,394.9,20.1,35,51,100
+DT-4,117,225,-52,779489.5,2021563.5,18.265337,101.643339,362.5,11.3,35,66,110

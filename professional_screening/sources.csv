@@ -1,0 +1,5 @@
+title,url,use,limit
+Sentinel-2 processing,https://sentiwiki.copernicus.eu/web/s2-processing,Product radiometry and quality,Calibration is not mineral validation
+ESA WorldCover,https://esa-worldcover.org/en/about/objectives,"Historical 2021 land cover, global accuracy 76.7%",Not current land use or site accuracy
+Duolong multisensor alteration study,https://www.sciencedirect.com/science/article/abs/pii/S0169136818301173,Literature context; abstract/search excerpt only,Full publisher text not retrieved; arid study is not Laos validation
+"CLMTV Lao DGM presentation, 2016",https://www.dmr.go.th/wp-content/uploads/2023/02/01-Lao-PDR_CLMTV.pdf,Regional geological context and map availability,Regional map scale cannot validate this AOI's observations

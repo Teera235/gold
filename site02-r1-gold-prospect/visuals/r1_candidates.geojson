@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "name": "R1_Drill_Candidates_Site02",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C10",
+        "Easting_m": 779502.0,
+        "Northing_m": 2021538.0,
+        "Elev_m": 362.5,
+        "Slope_deg": 11.3,
+        "Priority": "Rank 1",
+        "Mineral_Signature": "Goethite+Qtz+Jarosite (0.100) & Kaolinite+Mica (0.200)",
+        "Description": "ศูนย์กลางแร่น้ำร้อนและหมวกเหล็กเข้มข้นสูงสุด (เป้าหลักหลุมเจาะ DH-R1-01)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.643454,
+          18.265105,
+          362.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C07",
+        "Easting_m": 779535.5,
+        "Northing_m": 2021584.5,
+        "Elev_m": 396.4,
+        "Slope_deg": 24.5,
+        "Priority": "Rank 1",
+        "Mineral_Signature": "Halloysite (0.159) & Goethite+Jarosite (0.078)",
+        "Description": "รอยแตกโครงสร้างสันเขา พบแร่ Halloysite หนาแน่น (เป้าเจาะ DH-R1-02)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.643776,
+          18.265521,
+          396.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C06",
+        "Easting_m": 779435.5,
+        "Northing_m": 2021566.4,
+        "Elev_m": 366.6,
+        "Slope_deg": 16.5,
+        "Priority": "Rank 1",
+        "Mineral_Signature": "Kaolinite+Muscovite (0.135) & Goethite (0.084)",
+        "Description": "ไหล่เขาด้านตะวันตก โซนแปรสภาพ Phyllic Alteration สมบูรณ์"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.642829,
+          18.26537,
+          366.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C02",
+        "Easting_m": 779548.0,
+        "Northing_m": 2021496.0,
+        "Elev_m": 359.6,
+        "Slope_deg": 9.5,
+        "Priority": "Rank 2",
+        "Mineral_Signature": "Kaolinite+Muscovite (0.133) & Goethite (0.090)",
+        "Description": "ทางลาดด้านใต้ ลานเปิดโล่งความชันต่ำ เหมาะตั้งแท่นเจาะ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.643883,
+          18.26472,
+          359.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C01",
+        "Easting_m": 779467.5,
+        "Northing_m": 2021615.0,
+        "Elev_m": 372.2,
+        "Slope_deg": 18.7,
+        "Priority": "Rank 2",
+        "Mineral_Signature": "Kaolinite+Muscovite (0.120) & Goethite (0.076)",
+        "Description": "สันเขาด้านตะวันตกเฉียงเหนือ แนวต่อเชื่อมโครงสร้าง"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.643138,
+          18.265805,
+          372.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C03",
+        "Easting_m": 779522.9,
+        "Northing_m": 2021664.3,
+        "Elev_m": 384.2,
+        "Slope_deg": 4.7,
+        "Priority": "Rank 2",
+        "Mineral_Signature": "Dickite (0.059) Advanced Argillic indicator",
+        "Description": "ลานกว้างบนยอดเนิน ชันเพียง 4.7° พบ Dickite ชี้วัดระบบ Epithermal อุณหภูมิสูง"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.643668,
+          18.266243,
+          384.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C04",
+        "Easting_m": 779588.6,
+        "Northing_m": 2021617.1,
+        "Elev_m": 403.5,
+        "Slope_deg": 14.5,
+        "Priority": "Rank 3",
+        "Mineral_Signature": "Kaolinite+Muscovite (0.088)",
+        "Description": "ยอดเนินเขาสูงสุดของแปลง R1 (403.5 ม.) ขอบด้านตะวันออก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.644283,
+          18.265809,
+          403.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C08",
+        "Easting_m": 779607.1,
+        "Northing_m": 2021464.3,
+        "Elev_m": 356.4,
+        "Slope_deg": 22.7,
+        "Priority": "Rank 3",
+        "Mineral_Signature": "Goethite+Jarosite (0.071) & Kaolinite (0.086)",
+        "Description": "ร่องน้ำเชิงเขาทิศใต้ จุดรวมตะกอนชะล้างจากแกนกลางแร่"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.644437,
+          18.264426,
+          356.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C05",
+        "Easting_m": 779330.0,
+        "Northing_m": 2021540.0,
+        "Elev_m": 368.6,
+        "Slope_deg": 12.6,
+        "Priority": "Rank 3",
+        "Mineral_Signature": "Kaolinite+Muscovite (0.082)",
+        "Description": "ขอบสุดด้านตะวันตกของแปลง R1 รอยต่อแนวป่า"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.641828,
+          18.265146,
+          368.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C09",
+        "Easting_m": 779374.4,
+        "Northing_m": 2021583.3,
+        "Elev_m": 372.2,
+        "Slope_deg": 19.5,
+        "Priority": "Rank 3",
+        "Mineral_Signature": "Kaolinite+Muscovite (0.080)",
+        "Description": "ขอบทางลาดตะวันตกเฉียงเหนือ จุดสังเกตการณ์ขอบนอก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.642254,
+          18.265531,
+          372.2
+        ]
+      }
+    }
+  ]
+}

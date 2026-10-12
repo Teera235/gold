@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>R1 Drill Candidates - Site 02 Laos</name>
+  <description>10 Candidate Drill Targets derived from NASA EMIT Hyperspectral and Site 02 data</description>
+  <Placemark>
+    <name>C10 (Rank 1)</name>
+    <description><![CDATA[<b>Elevation:</b> 362.5 m<br><b>Slope:</b> 11.3°<br><b>Minerals:</b> Goethite+Qtz+Jarosite (0.100) & Kaolinite+Mica (0.200)<br><b>Note:</b> ศูนย์กลางแร่น้ำร้อนและหมวกเหล็กเข้มข้นสูงสุด (เป้าหลักหลุมเจาะ DH-R1-01)]]></description>
+    <Point>
+      <coordinates>101.643454,18.265105,362.5</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C07 (Rank 1)</name>
+    <description><![CDATA[<b>Elevation:</b> 396.4 m<br><b>Slope:</b> 24.5°<br><b>Minerals:</b> Halloysite (0.159) & Goethite+Jarosite (0.078)<br><b>Note:</b> รอยแตกโครงสร้างสันเขา พบแร่ Halloysite หนาแน่น (เป้าเจาะ DH-R1-02)]]></description>
+    <Point>
+      <coordinates>101.643776,18.265521,396.4</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C06 (Rank 1)</name>
+    <description><![CDATA[<b>Elevation:</b> 366.6 m<br><b>Slope:</b> 16.5°<br><b>Minerals:</b> Kaolinite+Muscovite (0.135) & Goethite (0.084)<br><b>Note:</b> ไหล่เขาด้านตะวันตก โซนแปรสภาพ Phyllic Alteration สมบูรณ์]]></description>
+    <Point>
+      <coordinates>101.642829,18.26537,366.6</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C02 (Rank 2)</name>
+    <description><![CDATA[<b>Elevation:</b> 359.6 m<br><b>Slope:</b> 9.5°<br><b>Minerals:</b> Kaolinite+Muscovite (0.133) & Goethite (0.090)<br><b>Note:</b> ทางลาดด้านใต้ ลานเปิดโล่งความชันต่ำ เหมาะตั้งแท่นเจาะ]]></description>
+    <Point>
+      <coordinates>101.643883,18.26472,359.6</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C01 (Rank 2)</name>
+    <description><![CDATA[<b>Elevation:</b> 372.2 m<br><b>Slope:</b> 18.7°<br><b>Minerals:</b> Kaolinite+Muscovite (0.120) & Goethite (0.076)<br><b>Note:</b> สันเขาด้านตะวันตกเฉียงเหนือ แนวต่อเชื่อมโครงสร้าง]]></description>
+    <Point>
+      <coordinates>101.643138,18.265805,372.2</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C03 (Rank 2)</name>
+    <description><![CDATA[<b>Elevation:</b> 384.2 m<br><b>Slope:</b> 4.7°<br><b>Minerals:</b> Dickite (0.059) Advanced Argillic indicator<br><b>Note:</b> ลานกว้างบนยอดเนิน ชันเพียง 4.7° พบ Dickite ชี้วัดระบบ Epithermal อุณหภูมิสูง]]></description>
+    <Point>
+      <coordinates>101.643668,18.266243,384.2</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C04 (Rank 3)</name>
+    <description><![CDATA[<b>Elevation:</b> 403.5 m<br><b>Slope:</b> 14.5°<br><b>Minerals:</b> Kaolinite+Muscovite (0.088)<br><b>Note:</b> ยอดเนินเขาสูงสุดของแปลง R1 (403.5 ม.) ขอบด้านตะวันออก]]></description>
+    <Point>
+      <coordinates>101.644283,18.265809,403.5</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C08 (Rank 3)</name>
+    <description><![CDATA[<b>Elevation:</b> 356.4 m<br><b>Slope:</b> 22.7°<br><b>Minerals:</b> Goethite+Jarosite (0.071) & Kaolinite (0.086)<br><b>Note:</b> ร่องน้ำเชิงเขาทิศใต้ จุดรวมตะกอนชะล้างจากแกนกลางแร่]]></description>
+    <Point>
+      <coordinates>101.644437,18.264426,356.4</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C05 (Rank 3)</name>
+    <description><![CDATA[<b>Elevation:</b> 368.6 m<br><b>Slope:</b> 12.6°<br><b>Minerals:</b> Kaolinite+Muscovite (0.082)<br><b>Note:</b> ขอบสุดด้านตะวันตกของแปลง R1 รอยต่อแนวป่า]]></description>
+    <Point>
+      <coordinates>101.641828,18.265146,368.6</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C09 (Rank 3)</name>
+    <description><![CDATA[<b>Elevation:</b> 372.2 m<br><b>Slope:</b> 19.5°<br><b>Minerals:</b> Kaolinite+Muscovite (0.080)<br><b>Note:</b> ขอบทางลาดตะวันตกเฉียงเหนือ จุดสังเกตการณ์ขอบนอก]]></description>
+    <Point>
+      <coordinates>101.642254,18.265531,372.2</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

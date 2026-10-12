@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>R1 field pack</name>
+<Style id="g"><IconStyle><color>ffff8800</color><scale>0.6</scale></IconStyle></Style>
+<Style id="d"><IconStyle><color>ff00cc00</color><scale>0.8</scale></IconStyle></Style>
+<Style id="r"><IconStyle><color>ff8080ff</color><scale>0.5</scale></IconStyle></Style>
+<Style id="t"><LineStyle><color>ff00ffff</color><width>2</width></LineStyle></Style>
+<Style id="o"><IconStyle><color>ff0099ff</color><scale>0.3</scale></IconStyle></Style>
+<Folder><name>R1 cells (20 m)</name>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643646,18.266566</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643643,18.266385</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643832,18.266383</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643451,18.266207</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643640,18.266205</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643829,18.266202</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644018,18.266199</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644207,18.266197</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644396,18.266194</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643449,18.266027</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643638,18.266024</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643827,18.266021</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644016,18.266019</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644205,18.266016</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644394,18.266014</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642879,18.265854</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643068,18.265851</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643257,18.265849</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643446,18.265846</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643635,18.265843</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643824,18.265841</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644013,18.265838</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644202,18.265836</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644391,18.265833</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642309,18.265681</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642498,18.265679</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643065,18.265671</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643443,18.265666</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643632,18.265663</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643821,18.265660</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644010,18.265658</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644199,18.265655</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644388,18.265652</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644577,18.265650</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644766,18.265647</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642117,18.265503</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642306,18.265501</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642495,18.265498</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642684,18.265495</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642873,18.265493</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643062,18.265490</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643251,18.265488</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643440,18.265485</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643629,18.265482</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643818,18.265480</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644007,18.265477</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644196,18.265474</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644385,18.265472</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644763,18.265467</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.641926,18.265325</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642115,18.265323</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642304,18.265320</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642493,18.265317</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642682,18.265315</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642871,18.265312</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643060,18.265310</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643249,18.265307</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643438,18.265304</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643627,18.265302</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643816,18.265299</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644005,18.265297</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644194,18.265294</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644383,18.265291</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.641923,18.265145</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642490,18.265137</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642679,18.265134</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.642868,18.265132</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643057,18.265129</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643246,18.265126</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643435,18.265124</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643624,18.265121</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643813,18.265119</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644002,18.265116</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.641920,18.264964</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643054,18.264948</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643432,18.264943</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643621,18.264941</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643810,18.264938</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643999,18.264935</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.641917,18.264784</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643429,18.264763</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643618,18.264760</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643807,18.264757</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643996,18.264755</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644185,18.264752</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643616,18.264579</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643805,18.264577</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643994,18.264574</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644183,18.264572</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644372,18.264569</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.643991,18.264394</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644180,18.264391</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644369,18.264388</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644558,18.264386</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644747,18.264383</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644366,18.264208</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644555,18.264205</coordinates></Point></Placemark>
+<Placemark><styleUrl>#o</styleUrl><Point><coordinates>101.644744,18.264203</coordinates></Point></Placemark>
+</Folder><Folder><name>Soil grid 40 m</name>
+<Placemark><name>R1-G001</name><description>zone S, elev 353.2 m, slope 17.4 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644568,18.263855</coordinates></Point></Placemark>
+<Placemark><name>R1-G002</name><description>zone S, elev 363.1 m, slope 24.6 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644195,18.263915</coordinates></Point></Placemark>
+<Placemark><name>R1-G003</name><description>zone S, elev 362.0 m, slope 27.1 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.645003,18.264152</coordinates></Point></Placemark>
+<Placemark><name>R1-G004</name><description>zone S, elev 353.9 m, slope 20.3 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.64463,18.264212</coordinates></Point></Placemark>
+<Placemark><name>R1-G005</name><description>zone S, elev 353.7 m, slope 8.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644258,18.264271</coordinates></Point></Placemark>
+<Placemark><name>R1-G006</name><description>zone S, elev 359.5 m, slope 17.7 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643885,18.264331</coordinates></Point></Placemark>
+<Placemark><name>R1-G007</name><description>zone S, elev 371.6 m, slope 26.6 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643512,18.26439</coordinates></Point></Placemark>
+<Placemark><name>R1-G008</name><description>zone W, elev 380.4 m, slope 24.5 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.64202,18.264628</coordinates></Point></Placemark>
+<Placemark><name>R1-G009</name><description>zone W, elev 377.3 m, slope 16.2 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.641647,18.264687</coordinates></Point></Placemark>
+<Placemark><name>R1-G010</name><description>zone S, elev 376.4 m, slope 22.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.645066,18.264508</coordinates></Point></Placemark>
+<Placemark><name>R1-G011</name><description>zone S, elev 379.5 m, slope 26.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644693,18.264568</coordinates></Point></Placemark>
+<Placemark><name>R1-G012</name><description>zone S, elev 363.6 m, slope 24.5 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.64432,18.264627</coordinates></Point></Placemark>
+<Placemark><name>R1-G013</name><description>zone S, elev 359.6 m, slope 9.5 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643947,18.264687</coordinates></Point></Placemark>
+<Placemark><name>R1-G014</name><description>zone S, elev 364.5 m, slope 14.7 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643574,18.264746</coordinates></Point></Placemark>
+<Placemark><name>R1-G015</name><description>zone C, elev 373.2 m, slope 24.0 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643201,18.264806</coordinates></Point></Placemark>
+<Placemark><name>R1-G016</name><description>zone C, elev 372.5 m, slope 24.6 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.642828,18.264865</coordinates></Point></Placemark>
+<Placemark><name>R1-G017</name><description>zone W, elev 374.6 m, slope 24.4 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.642455,18.264925</coordinates></Point></Placemark>
+<Placemark><name>R1-G018</name><description>zone W, elev 371.4 m, slope 19.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.642082,18.264984</coordinates></Point></Placemark>
+<Placemark><name>R1-G019</name><description>zone W, elev 372.6 m, slope 16.6 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.64171,18.265044</coordinates></Point></Placemark>
+<Placemark><name>R1-G020</name><description>zone C, elev 386.5 m, slope 29.9 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644382,18.264984</coordinates></Point></Placemark>
+<Placemark><name>R1-G021</name><description>zone C, elev 369.4 m, slope 26.2 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644009,18.265043</coordinates></Point></Placemark>
+<Placemark><name>R1-G022</name><description>zone C, elev 372.1 m, slope 25.0 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643636,18.265103</coordinates></Point></Placemark>
+<Placemark><name>R1-G023</name><description>zone C, elev 362.5 m, slope 11.3 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643263,18.265162</coordinates></Point></Placemark>
+<Placemark><name>R1-G024</name><description>zone C, elev 361.1 m, slope 5.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.64289,18.265221</coordinates></Point></Placemark>
+<Placemark><name>R1-G025</name><description>zone W, elev 362.4 m, slope 7.4 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.642518,18.265281</coordinates></Point></Placemark>
+<Placemark><name>R1-G026</name><description>zone W, elev 364.8 m, slope 5.9 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.642145,18.26534</coordinates></Point></Placemark>
+<Placemark><name>R1-G027</name><description>zone W, elev 383.2 m, slope 23.3 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.641772,18.2654</coordinates></Point></Placemark>
+<Placemark><name>R1-G028</name><description>zone C, elev 406.3 m, slope 17.9 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644817,18.26528</coordinates></Point></Placemark>
+<Placemark><name>R1-G029</name><description>zone C, elev 410.5 m, slope 8.4 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644444,18.26534</coordinates></Point></Placemark>
+<Placemark><name>R1-G030</name><description>zone C, elev 405.6 m, slope 15.3 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644071,18.265399</coordinates></Point></Placemark>
+<Placemark><name>R1-G031</name><description>zone C, elev 380.0 m, slope 27.4 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643698,18.265459</coordinates></Point></Placemark>
+<Placemark><name>R1-G032</name><description>zone C, elev 366.9 m, slope 15.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643326,18.265518</coordinates></Point></Placemark>
+<Placemark><name>R1-G033</name><description>zone C, elev 365.4 m, slope 11.0 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.642953,18.265578</coordinates></Point></Placemark>
+<Placemark><name>R1-G034</name><description>zone W, elev 381.4 m, slope 26.5 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.64258,18.265637</coordinates></Point></Placemark>
+<Placemark><name>R1-G035</name><description>zone W, elev 383.9 m, slope 23.2 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.642207,18.265697</coordinates></Point></Placemark>
+<Placemark><name>R1-G036</name><description>zone C, elev 409.8 m, slope 11.4 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644879,18.265637</coordinates></Point></Placemark>
+<Placemark><name>R1-G037</name><description>zone C, elev 408.4 m, slope 10.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644507,18.265696</coordinates></Point></Placemark>
+<Placemark><name>R1-G038</name><description>zone C, elev 403.5 m, slope 14.5 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644134,18.265756</coordinates></Point></Placemark>
+<Placemark><name>R1-G039</name><description>zone C, elev 381.8 m, slope 21.9 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643761,18.265815</coordinates></Point></Placemark>
+<Placemark><name>R1-G040</name><description>zone C, elev 371.1 m, slope 13.2 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643388,18.265875</coordinates></Point></Placemark>
+<Placemark><name>R1-G041</name><description>zone C, elev 384.2 m, slope 25.7 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643015,18.265934</coordinates></Point></Placemark>
+<Placemark><name>R1-G042</name><description>zone N, elev 397.2 m, slope 22.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.642642,18.265993</coordinates></Point></Placemark>
+<Placemark><name>R1-G043</name><description>zone N, elev 400.9 m, slope 20.1 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644569,18.266052</coordinates></Point></Placemark>
+<Placemark><name>R1-G044</name><description>zone N, elev 397.9 m, slope 16.7 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644196,18.266112</coordinates></Point></Placemark>
+<Placemark><name>R1-G045</name><description>zone N, elev 388.8 m, slope 11.2 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643823,18.266171</coordinates></Point></Placemark>
+<Placemark><name>R1-G046</name><description>zone N, elev 383.9 m, slope 15.1 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.64345,18.266231</coordinates></Point></Placemark>
+<Placemark><name>R1-G047</name><description>zone N, elev 386.6 m, slope 24.8 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644631,18.266409</coordinates></Point></Placemark>
+<Placemark><name>R1-G048</name><description>zone N, elev 377.1 m, slope 18.5 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.644258,18.266468</coordinates></Point></Placemark>
+<Placemark><name>R1-G049</name><description>zone N, elev 381.4 m, slope 16.4 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643885,18.266528</coordinates></Point></Placemark>
+<Placemark><name>R1-G050</name><description>zone N, elev 383.6 m, slope 7.9 deg</description><styleUrl>#g</styleUrl><Point><coordinates>101.643512,18.266587</coordinates></Point></Placemark>
+</Folder><Folder><name>Drainage / panning</name>
+<Placemark><name>R1-D01</name><description>~80 m below R1</description><styleUrl>#d</styleUrl><Point><coordinates>101.645585,18.263559</coordinates></Point></Placemark>
+<Placemark><name>R1-D02</name><description>~80 m below R1</description><styleUrl>#d</styleUrl><Point><coordinates>101.644739,18.263841</coordinates></Point></Placemark>
+<Placemark><name>R1-D03</name><description>~80 m below R1</description><styleUrl>#d</styleUrl><Point><coordinates>101.645063,18.266546</coordinates></Point></Placemark>
+<Placemark><name>R1-D04</name><description>~250 m below R1</description><styleUrl>#d</styleUrl><Point><coordinates>101.64676,18.266252</coordinates></Point></Placemark>
+</Folder><Folder><name>Mapping traverses</name>
+<Placemark><name>R1-T01</name><styleUrl>#t</styleUrl><LineString><coordinates>101.646092,18.267091 101.645368,18.262948</coordinates></LineString></Placemark>
+<Placemark><name>R1-T02</name><styleUrl>#t</styleUrl><LineString><coordinates>101.645532,18.267180 101.644808,18.263037</coordinates></LineString></Placemark>
+<Placemark><name>R1-T03</name><styleUrl>#t</styleUrl><LineString><coordinates>101.644973,18.267270 101.644249,18.263126</coordinates></LineString></Placemark>
+<Placemark><name>R1-T04</name><styleUrl>#t</styleUrl><LineString><coordinates>101.644414,18.267359 101.643690,18.263215</coordinates></LineString></Placemark>
+<Placemark><name>R1-T05</name><styleUrl>#t</styleUrl><LineString><coordinates>101.643854,18.267448 101.643130,18.263305</coordinates></LineString></Placemark>
+<Placemark><name>R1-T06</name><styleUrl>#t</styleUrl><LineString><coordinates>101.643295,18.267537 101.642571,18.263394</coordinates></LineString></Placemark>
+<Placemark><name>R1-T07</name><styleUrl>#t</styleUrl><LineString><coordinates>101.642736,18.267626 101.642012,18.263483</coordinates></LineString></Placemark>
+<Placemark><name>R1-T08</name><styleUrl>#t</styleUrl><LineString><coordinates>101.642176,18.267716 101.641452,18.263572</coordinates></LineString></Placemark>
+<Placemark><name>R1-T09</name><styleUrl>#t</styleUrl><LineString><coordinates>101.641617,18.267805 101.640893,18.263661</coordinates></LineString></Placemark>
+</Folder><Folder><name>Old C01-C10 (reference only)</name>
+<Placemark><name>old-C10</name><styleUrl>#r</styleUrl><Point><coordinates>101.643454,18.265105</coordinates></Point></Placemark>
+<Placemark><name>old-C07</name><styleUrl>#r</styleUrl><Point><coordinates>101.643776,18.265521</coordinates></Point></Placemark>
+<Placemark><name>old-C06</name><styleUrl>#r</styleUrl><Point><coordinates>101.642829,18.265371</coordinates></Point></Placemark>
+<Placemark><name>old-C02</name><styleUrl>#r</styleUrl><Point><coordinates>101.643883,18.264720</coordinates></Point></Placemark>
+<Placemark><name>old-C01</name><styleUrl>#r</styleUrl><Point><coordinates>101.643138,18.265805</coordinates></Point></Placemark>
+<Placemark><name>old-C03</name><styleUrl>#r</styleUrl><Point><coordinates>101.643668,18.266243</coordinates></Point></Placemark>
+<Placemark><name>old-C04</name><styleUrl>#r</styleUrl><Point><coordinates>101.644283,18.265808</coordinates></Point></Placemark>
+<Placemark><name>old-C08</name><styleUrl>#r</styleUrl><Point><coordinates>101.644437,18.264426</coordinates></Point></Placemark>
+<Placemark><name>old-C05</name><styleUrl>#r</styleUrl><Point><coordinates>101.641828,18.265146</coordinates></Point></Placemark>
+<Placemark><name>old-C09</name><styleUrl>#r</styleUrl><Point><coordinates>101.642254,18.265531</coordinates></Point></Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,39 @@
+{
+  "source": "User supplied screenshot table",
+  "crs": "EPSG:32647",
+  "datum": "WGS84",
+  "crs_basis": "Zone 47N proposed in chat; user instructed to proceed. Screenshot itself does not specify CRS. Confirm against original survey or ground GNSS before navigation.",
+  "source_points": [
+    [
+      1,
+      775996,
+      2023940
+    ],
+    [
+      2,
+      782940,
+      2023940
+    ],
+    [
+      3,
+      775996,
+      2017740
+    ],
+    [
+      4,
+      782940,
+      2017740
+    ]
+  ],
+  "polygon_vertex_order": [
+    1,
+    2,
+    4,
+    3
+  ],
+  "projected_area_km2": 43.0528,
+  "centre_lonlat": [
+    101.64303681815986,
+    18.25880785849347
+  ]
+}

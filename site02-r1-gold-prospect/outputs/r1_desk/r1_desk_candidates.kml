@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>R1 desk-only drill candidates</name>
+<Placemark><name>DT-1 target</name><description>desk-only target, score 0.69; hole az 50 dip -49, 80 m</description><Point><coordinates>101.643943,18.265149</coordinates></Point></Placemark>
+<Placemark><name>DT-1 collar</name><description>desk-only target, score 0.69; hole az 50 dip -49, 80 m</description><Point><coordinates>101.643759,18.265006</coordinates></Point></Placemark>
+<Placemark><name>DT-1 hole trace</name><LineString><coordinates>101.643759,18.265006 101.643943,18.265149</coordinates></LineString></Placemark>
+<Placemark><name>DT-2 target</name><description>desk-only target, score 0.65; hole az 10 dip -52, 100 m</description><Point><coordinates>101.643470,18.265460</coordinates></Point></Placemark>
+<Placemark><name>DT-2 collar</name><description>desk-only target, score 0.65; hole az 10 dip -52, 100 m</description><Point><coordinates>101.643408,18.26515</coordinates></Point></Placemark>
+<Placemark><name>DT-2 hole trace</name><LineString><coordinates>101.643408,18.26515 101.643470,18.265460</coordinates></LineString></Placemark>
+<Placemark><name>DT-3 target</name><description>desk-only target, score 0.56; hole az 35 dip -54, 100 m</description><Point><coordinates>101.644186,18.265835</coordinates></Point></Placemark>
+<Placemark><name>DT-3 collar</name><description>desk-only target, score 0.56; hole az 35 dip -54, 100 m</description><Point><coordinates>101.64402,18.265616</coordinates></Point></Placemark>
+<Placemark><name>DT-3 hole trace</name><LineString><coordinates>101.64402,18.265616 101.644186,18.265835</coordinates></LineString></Placemark>
+<Placemark><name>DT-4 target</name><description>desk-only target, score 0.56; hole az 225 dip -52, 110 m</description><Point><coordinates>101.643068,18.265086</coordinates></Point></Placemark>
+<Placemark><name>DT-4 collar</name><description>desk-only target, score 0.56; hole az 225 dip -52, 110 m</description><Point><coordinates>101.643339,18.265337</coordinates></Point></Placemark>
+<Placemark><name>DT-4 hole trace</name><LineString><coordinates>101.643339,18.265337 101.643068,18.265086</coordinates></LineString></Placemark>
+</Document></kml>
